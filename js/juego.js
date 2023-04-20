@@ -37,7 +37,6 @@ class Game {
         const player1Name = player1Input.trim().length > 0 ? player1Input : "Player 1";
         const p1Active = Math.floor(Math.random() * 2) === 0;
         let player2;
-       
             const player2Input = document.getElementById("player-2-name").value;
             const player2Name = player2Input.trim().length > 0 ? player2Input : "Player 2";
             player2 = new Player(player2Name, 'player2', '#3688C3', !p1Active)
@@ -59,9 +58,7 @@ class Game {
         document.getElementById(unactivePlayer.id).classList.remove('active');
         document.getElementById(activePlayer.id).classList.add('active');
         
-        if (activePlayer.name === 'Computer'){
-            activePlayer.makeMove()
-        }
+       
     }
 
     /**
@@ -191,7 +188,7 @@ class Game {
      * alternamos la imagen de la ficha mientras el jugador desplaza el raton
      * @param {object} e - Evento del raton
      */
-    handleMouseOver(e){
+    handleMouseHover(e){
         if (this.ready) {
             if (e.target.classList.contains('box-filled-1') || e.target.classList.contains('box-filled-2')) {
                 return;

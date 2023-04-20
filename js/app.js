@@ -40,7 +40,7 @@ startButton.addEventListener("click", () => {
 });
 
 spaces.addEventListener("mouseover", (e) => {
-    game.handleMouseOver(e);
+    game.handleMouseHover(e);
 });
 
 spaces.addEventListener("mouseout", (e) => {

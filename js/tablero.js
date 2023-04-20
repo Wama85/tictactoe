@@ -27,7 +27,7 @@ class Board {
 
     /**
      * generamos el juego en el espacio html
-     */
+    */
     renderHTMLBoard(){
         for (let column of this.spaces) {
             for (let space of column) {
