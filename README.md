@@ -1,7 +1,6 @@
 # Tic-Tac-Toe con Java Script, Orientada a objetos
 Un juego de tres en raya con dos jugadores construido con clases. 
 La clase juego es donde encontraremos la mayoria de los elementos
-
 ## Clases
 * ```Juego``` Administra el juego y cambia turnos
 * ```Tablero``` Compuesto por objetos espacios individuales
@@ -11,3 +10,8 @@ La clase juego es donde encontraremos la mayoria de los elementos
 
 ## Author
 Grupo SIS-INFO
+Sebastian Daniel Beller Sanzetenea
+Jhoselin Solangel Quiroga Quispe 
+Marlon Tomas Marzo Fernandez
+Susan Milenka Céspedes Lazcano
+Wilner Antonio Mena Aguilar.
